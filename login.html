@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>انضم لنا</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body >
+
+
+    <section>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <!-- <li><a href="index.html #featuer">عنا</a></li> -->
+                    <!-- <li><a href="index.html #section">الاقسام</a></li> -->
+                    <li><a href="contact.html"> اتصل بنا</a></li>
+                    <li><a href="login.html"> انضم لنا</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="menuBtn">
+            <img src="img/menu.png" alt="menu" id="menu">
+        </div>
+    
+    
+    
+    
+    
+    
+        <script>
+            var menuBtn = document.getElementById("menuBtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+    
+            sideNav.style.right = "-250px"
+    
+            menuBtn.onclick = function(){
+                if(sideNav.style.right == "-250px"){
+                    sideNav.style.right = "0";
+                    menu.src = "img/close.png"
+                }
+                else{
+                    sideNav.style.right = "-250px";
+                    menu.src ="img/menu.png";
+    
+                }
+            }
+        </script>
+    
+    </section>
+        
+    
+    
+    
+    
+    
+        <script>
+            var menuBtn = document.getElementById("menuBtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+    
+            sideNav.style.right = "-250px"
+    
+            menuBtn.onclick = function(){
+                if(sideNav.style.right == "-250px"){
+                    sideNav.style.right = "0";
+                    menu.src = "img/close.png"
+                }
+                else{
+                    sideNav.style.right = "-250px";
+                    menu.src ="img/menu.png";
+    
+                }
+            }
+        </script>
+    
+    </section>
+    
+
+    
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggole-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggole-btn" onclick="register()">Register</button>
+            </div>
+                <form id="login" class="input-group">
+                    <input type="text" class="input-field" placeholder="User Id" required>
+                    <input type="text" class="input-field" placeholder="Enter Passeoword" required>
+                    <input type="checkbox"class="check-box"><span>Remember Passeoword </span>
+                    <button type="submit"class="submit-btn">Log in</button>
+                    
+                </form>
+                <form id="register" class="input-group">
+                    <input type="text" class="input-field" placeholder="User Id" required>
+                    <input type="email" class="input-field" placeholder="Email Id" required>
+                    <input type="text" class="input-field" placeholder="Enter Passeoword" required>
+                    <input type="checkbox"class="check-box"><span>I agree to the terms & conditions </span>
+                    <button type="submit"class="submit-btn">Register</button>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var x =document.getElementById("login");
+        var y =document.getElementById("register");
+        var z =document.getElementById("btn");
+
+        function register(){
+            x.style.left="-400px"
+            y.style.left="50px"
+            z.style.left="110px"
+        }
+        function login(){
+            x.style.left="50px"
+            y.style.left="450px"
+            z.style.left="0px"
+        }
+
+    </script>
+    
+
+
+
+
+</body>
+</html>

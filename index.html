@@ -1,0 +1,295 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMPUTER&SYBER SECURTY CLUB</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans&family=Smooch+Sans:wght@100&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+
+
+
+</head>
+<body>
+
+<section id="banner">
+    <img src="img/logo.png" alt="logo" class="logo">
+<div class="banner-text">
+    <h1>نادي الحاسب الألي والأمن السيبراني</h1>
+    <p>حيث التعلم والمزيد من الفرص</p>
+    <div class="banner-btn">
+
+        <a href="#footer"><span></span>تابعنا</a> 
+        <a href="#featuer"><span></span> ما نتميز به</a> 
+
+    </div>
+</div>
+
+</section>
+
+<section>
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="#banner">الرئيسية</a></li>
+                <li><a href="#featuer">ما نتميز به</a></li>
+                <li><a href="#section">الأقسام</a></li>
+                <li><a href="contact.html"> اتصل بنا</a></li>
+                <li><a href="login.html"> انضم لنا</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="img/menu.png" alt="menu" id="menu">
+    </div>
+
+
+
+
+
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+
+        sideNav.style.right = "-250px"
+
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+                menu.src = "img/close.png"
+            }
+            else{
+                sideNav.style.right = "-250px";
+                menu.src ="img/menu.png";
+
+            }
+        }
+    </script>
+
+</section>
+
+
+<!-- featuers -->
+
+<section id="featuer">
+    <div class="title-text">
+        <p>FEATURES</p>
+        <H1>ما نتميز به</H1>
+        <div class="feature-box">
+
+            <div class="features">
+<!-- ------------------------------------------------------------------------------                 -->
+                <h2> الدورات</h2>
+                <div class="features-desc">
+                    <div class="featuers-icon">
+                       
+                    </div>
+                    <div class="featuers-text">
+                        <p> كعضو بنادي الحاسب سيقوم النادي بإعطاء الأعضاء
+                             دورات تفيدهم وتساعدهم بالتطور 
+                             من الناحية التقنية 
+
+                        </p>
+                    </div>
+                </div>
+<!-- --------------------------------------------------------------------------------                 -->
+                <h2> تطوير ودعم الأعضاء</h2>
+                <div class="features-desc">
+                    <div class="featuers-icon">
+                       
+                    </div>
+                    <div class="featuers-text">
+                        <p>سيقوم النادي بدعم الأعضاء ، كذلك سيتيح لهم الفُرص لتطوير مهاراتهم و مواهبهم
+                        </p>
+                    </div>
+                </div>
+<!-- ------------------------------------------------------------------------------                 -->
+                <h2> الإستفادة الإجتماعية</h2>
+                <div class="features-desc">
+                    <div class="featuers-icon">
+                       
+                    </div>
+                    <div class="featuers-text">
+                        <p> سيقوم النادي بمساعدة الأعضاء لإبراز شخصياتهم بالقيادة والروح التعاونية بين اعضاء النادي  وإكساب الأعضاء الخبرة والتعلم والمشاركة بالفعاليات المقدمة عن طريق النادي
+                        </p>
+                    </div>
+                </div>
+<!-- --------------------------------------------------------------------------------                 -->
+                <!-- <h2> فراغ/h2>
+                <div class="features-desc">
+                    <div class="featuers-icon">
+                       
+                    </div>
+                    <div class="featuers-text">
+                        <p> فراغ</p>
+                    </div>
+                </div> -->
+  <!-- --------------------------------------------------------------------------------------               -->
+            </div>
+            <div class="features-img">
+                <img src="img/featuers.jpg" alt="features-img" class="img">
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- الاقسام -->
+
+
+
+
+    <section id="section">
+
+        <div class="title-text">
+            <p>section</p>
+            <h1>الاقسام</h1>
+        </div>
+
+        <div class="section-box">
+<!-- _____________________________________________________________________  -->
+             <div class="single-service">
+                <img src="img/img1.jpeg" alt="التطوير المهني">
+                <div class="overlay"></div>
+                <div class="section-desc">
+                    <h3>لجنة تطوير المهني</h3>
+                    <hr>
+                    <p>رح تختص بالمبادرات بمختلف مجالات الحاسب مثل الذكاء الإصطناعي و تصميم الواجهات و انترنت الأشياء وإلخ...</p>
+                    <a href="section1.html"><span></span> للمزيد</a>
+                </div>
+             </div>
+<!-- ______________________________________________________________________ -->
+            <div class="single-service">
+                <img src="img/img2.jpeg" alt="لجة التنظيم">
+                <div class="overlay"></div>
+                <div class="section-desc">
+                    <h3>لجنة التنظيم وإدارة الفعاليات</h3>
+                    <hr>
+                    <p>تختص بتنظيم الفعاليات و المعارض وأنشطة الجامعه 
+                    </p>
+                    <a href="section2.html"><span></span> للمزيد</a>
+                </div>
+
+            </div>
+<!-- ______________________________________________________________________ -->
+            <div class="single-service">
+                <img src="img/img3.jpeg" alt="كتابة المحتوى">
+                <div class="overlay"></div>
+                <div class="section-desc">
+                    <h3>لجنة كتابة المحتوى</h3>
+                    <hr>
+                    <p>رح تكون مختصة بكتابة المحتوى اللي بينزل في حسابات السوشل ميديا والفعاليات 
+                    </p>
+                    <a href="section3.html"><span></span> للمزيد</a>
+                </div>
+
+            </div>
+<!-- ______________________________________________________________________ -->
+            <div class="single-service">
+                <img src="img/img4.jpeg" alt="الأمن السيبراني">
+                <div class="overlay"></div>
+                <div class="section-desc">
+                    <h3>لجنة الامن السيبراني</h3>
+                    <hr>
+                    <p>رح تخص مبادرات لتوعية بأمن المعلومات والدورات التدريبية اللي بهذي المجال</p>
+                    <a href="section4.html"><span></span> للمزيد</a>
+                </div>
+
+            </div>
+<!-- ______________________________________________________________________ -->
+            <div class="single-service">
+                <img src="img/img5.jpeg" alt="التصميم">
+                <div class="overlay"></div>
+                <div class="section-desc">
+                    <h3>لجنة التصميم</h3>
+                    <hr>
+                    <p>بتكون مسؤولة عن تصميم الإعلانات والتقارير والمحتوى للمبادرات</p>
+                    <a href="section5.html"><span></span> للمزيد</a>
+                </div>
+                
+                
+
+            </div>
+<!-- ______________________________________________________________________ -->
+            <div class="single-service">
+                <img src="img/img6.jpeg" alt="التصوير">
+                <div class="overlay"></div>
+                <div class="section-desc">
+                    <h3>لجنة التصوير</h3>
+                    <hr>
+                    <p>لجنة تختص في تصوير وتوثيق الفعاليات والمعارض</p>
+                    <a href="section6.html"><span></span> للمزيد</a>
+                </div>
+                
+
+            </div>
+<!-- ______________________________________________________________________ -->
+            <!-- <div class="single-service">
+                <img src="img/img7.jpeg" alt="المجتمع">
+                                <div class="section-desc">
+                    <h3>----</h3>
+                    <hr>
+                    <p>--------------------</p>
+                </div>
+
+            </div>
+        </div> -->
+
+
+    </section>
+
+
+    <!-- footer -->
+
+    <section id="footer">
+        <div class="title-text">
+            <p>CONTACT</p>
+            <H1تابعنا</H1>
+        </div>
+
+
+        <div class="footer-row">
+
+        <div class="footer-left">
+            <h1>حسابنا على التويتر</h1>
+            <p>@jazanUCC</p>
+            <a href="https://x.com/jazanucc?s=21&t=4hOeR1Hsfg9ngwQPwkhXsA"><span></span> انتقل</a>
+        </div>
+        <div class="footer-centor">
+            <h1>حسابنا على السناب</h1>
+            <P>jazanucc22</P>
+            <a href="https://www.snapchat.com/add/jazanucc22"><span></span> انتقل</a>
+        </div>
+        <div class="footer-right">
+            <h1>حسابناعلى الإنستقرام</h1>
+            <p> jazanUCC</p>
+            <a href="https://instagram.com/jazanucc?igshid=NGVhN2U2NjQ0Yg=="><span></span> انتقل</a>
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+</section>
+
+
+
+
+
+    
+</body>
+</html>

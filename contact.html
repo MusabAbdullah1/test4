@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <title>contact us</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+  <section>
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <!-- <li><a href="#featuer">عنا</a></li> -->
+                <!-- <li><a href="#section">الاقسام</a></li> -->
+                <li><a href="contact.html"> اتصل بنا</a></li>
+                <li><a href="login.html"> انضم لنا</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="img/menu.png" alt="menu" id="menu">
+    </div>
+
+
+
+
+
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+
+        sideNav.style.right = "-250px"
+
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+                menu.src = "img/close.png"
+            }
+            else{
+                sideNav.style.right = "-250px";
+                menu.src ="img/menu.png";
+
+            }
+        }
+    </script>
+
+</section>
+
+
+
+
+  <section id="banner">
+    <img src="img/logo.png" alt="logo" class="logo">
+  </section>
+  <h1> Contact us</h1>
+  <form class="cf" id="contactForm">
+    <div class="half left cf">
+      <input type="text" id="input-name" placeholder="Name">
+      <input type="email" id="input-email" placeholder="Email address">
+      <input type="text" id="input-subject" placeholder="Subject">
+    </div>
+    <div class="half right cf">
+      <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+    </div>  
+    <input type="submit" value="Submit" id="input-submit">
+  </form>
+  <div class="message">
+    <div class="success" id="success">Your Message Successfully Sent!</div>
+    <div class="danger" id="danger">Feilds Can't be Empty!</div>
+</div>
+  <div class="follow-widget">
+    <h2>follow Us</h2>
+    <p>Stay updated via social media</p>
+    <ul>
+      <li><a href="https://twitter.com/jazanucc?s=21" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+      <li><a href="https://instagram.com/jazanucc?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+      <li><a href="https://t.snapchat.com/KFcL68Dj" target="_blank"><i class="fa fa-snapchat" aria-hidden="true"></i></a></li>
+    </ul>
+  </div>
+ 
+<script src="./main.js"></script>
+</body>
+</html>
